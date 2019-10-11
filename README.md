@@ -1,3 +1,4 @@
+```bash
 NAME:
    best-zone-for-spot check-spot - Check best spot capacity in a given region
 
@@ -10,7 +11,7 @@ OPTIONS:
    -t value, --instance-type value    list of instance types. Example: ... --instance-type r4.xlarge --instance-type r5.xlarge
    -r value, --region value           AWS region (default: "us-east-1")
    -c value, --target-capacity value  Number of spot instance to bring up to test spot capacity (default: 10)
-
+```
 
 ## Build and Install
 
